@@ -26,6 +26,10 @@ Route::get('/dicas', function () {
     return Inertia::render('Dicas');
 })->name('dicas');
 
+Route::get('/dicas/VeiculoRoubado', function () {
+    return Inertia::render('VeiculoRoubado');
+})->name('VeiculoRoubado');
+
 
 //---------------------------------------------------------------------------------------------------------------
 
