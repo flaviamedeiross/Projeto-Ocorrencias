@@ -1,8 +1,3 @@
-<script setup>
-    import Navbar from './Navbar.vue';
-    import Fimdapagina from './Fimdapagina.vue';
-    import { Head, Link } from '@inertiajs/inertia-vue3';
-</script>
 
 <template>
     <br><br>
@@ -15,7 +10,7 @@
                     </div>
                     <div class="p-8">
                         <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Dicas de Segurança</div>
-                        <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Seu Veiculo Foi Roubado?</a>
+                        <a href="/dicas/VeiculoRoubado" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Seu Veiculo Foi Roubado?</a>
                         <p class="mt-2 text-slate-500">Siga estes passos essenciais caso seu veículo seja roubado. Saiba exatamente o que fazer para lidar com essa situação e aumentar as chances de recuperação do seu carro.</p>
                     </div>
                 </div>
