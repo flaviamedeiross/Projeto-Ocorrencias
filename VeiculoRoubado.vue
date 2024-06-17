@@ -1,5 +1,6 @@
 
 <template>
+    <Navbar />
 <div class="container mx-auto" style="background-color: #dcdcdc; width: 900px;">
 
     <br>
@@ -11,7 +12,7 @@
     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
         <div class="md:flex">
             <div class="shrink-0">
-                <img class="object-contain h-48 w-96" src="/img/placas/placa1.png" alt="placa1">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/placas/placa1.png" alt="placa1">
             </div>
             <div class="p-8">
                 <div class="uppercase tracking-wide text-base text-indigo-500 font-bold" style="color: #ea0000;">
@@ -36,7 +37,7 @@
                 </p>
             </div>
             <div class="shrink-0">
-                <img class="object-contain h-48 w-96" src="/img/placas/placa2.png" alt="placa2">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/placas/placa2.png" alt="placa2">
             </div>
         </div>
     </div>
@@ -45,7 +46,7 @@
     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
         <div class="md:flex">
             <div class="shrink-0">
-                <img class="object-contain h-48 w-96" src="/img/placas/placa3.png" alt="placa3">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/placas/placa3.png" alt="placa3">
             </div>
             <div class="p-8">
                 <div class="uppercase tracking-wide text-base text-indigo-500 font-bold" style="color: #ea0000;">
@@ -70,7 +71,7 @@
                 </p>
             </div>
             <div class="shrink-0">
-                <img class="object-contain h-48 w-96" src="/img/placas/placa4.png" alt="placa4">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/placas/placa4.png" alt="placa4">
             </div>
         </div>
     </div>
@@ -79,7 +80,7 @@
     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
         <div class="md:flex">
             <div class="shrink-0">
-                <img class="object-contain h-48 w-96" src="/img/placas/placa5.png" alt="placa5">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/placas/placa5.png" alt="placa5">
             </div>
             <div class="p-8">
                 <div class="uppercase tracking-wide text-base text-indigo-500 font-bold" style="color: #ea0000;">
@@ -104,7 +105,7 @@
                 </p>
             </div>
             <div class="shrink-0">
-                <img class="object-contain h-48 w-96" src="/img/placas/placa6.png" alt="placa6">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/placas/placa6.png" alt="placa6">
             </div>
         </div>
     </div>
@@ -113,7 +114,7 @@
     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
         <div class="md:flex">
             <div class="shrink-0">
-                <img class="object-contain h-48 w-96" src="/img/placas/placa7.png" alt="placa7">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/placas/placa7.png" alt="placa7">
             </div>
             <div class="p-8">
                 <div class="uppercase tracking-wide text-base text-indigo-500 font-bold" style="color: #ea0000;">
@@ -138,7 +139,7 @@
                 </p>
             </div>
             <div class="shrink-0">
-                <img class="object-contain h-48 w-96" src="/img/placas/placa8.png" alt="placa8">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/placas/placa8.png" alt="placa8">
             </div>
         </div>
     </div>
@@ -147,7 +148,7 @@
     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
         <div class="md:flex">
             <div class="shrink-0">
-                <img class="object-contain h-48 w-96" src="/img/placas/placa9.png" alt="placa9">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/placas/placa9.png" alt="placa9">
             </div>
             <div class="p-8">
                 <div class="uppercase tracking-wide text-base text-indigo-500 font-bold" style="color: #ea0000;">
@@ -169,8 +170,6 @@
 
     <br>
 </div>
-
-
 
 </template>
   
