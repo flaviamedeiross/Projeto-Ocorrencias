@@ -36,32 +36,28 @@
     </section>
 
     <!-- Functionalities Section -->
-    <section class="max-w-screen-xl mx-2 sm:mx-auto px-2 sm:px-6 lg:px-0 py-6 sm:py-8 pb-20 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-8" style="background-color: #ffffff;">
+    <section class="max-w-screen-xl mx-auto px-2 sm:px-6 lg:px-0 py-6 sm:py-8 pb-20 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-8" style="background-color: #ffffff;">
       <div class="w-full flex flex-col lg:flex-row items-center justify-center">
-        <LandingFunctionality
-          data-aos="fade-up"
-          title="Registrar Ocorrência"
-          description="Clique para registrar alguma ocorrência do campus ou região."
-          link="/app"
-          class="xl:border-r border-gray-200 lg:px-8"
-        />
-        <LandingFunctionality
-          data-aos="fade-up"
-          data-aos-delay="150"
-          title="Dicas"
-          description="Veja dicas que podem te ajudar no dia a dia."
-          link="/dicas"
-          class="xl:border-r border-gray-200 lg:px-8"
-        />
-        <LandingFunctionality
-          data-aos="fade-up"
-          data-aos-delay="300"
-          title="Algo Futuro"
-          description="Seção para que no futuro haja espaço."
-          link="/algofuturo"
-          class="lg:px-8"
-        />
+        <div class="w-full lg:w-1/2 p-4">
+          <div class="bg-white rounded-lg shadow-md p-6 text-center">
+            <h3 class="text-xl font-bold mb-2">Registrar Ocorrência</h3>
+            <p class="text-gray-600 mb-4">Clique para registrar alguma ocorrência do campus ou região.</p>
+            <router-link to="/app" class="text-blue-500 underline">Saiba mais</router-link>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 p-4">
+          <div class="bg-white rounded-lg shadow-md p-6 text-center">
+            <h3 class="text-xl font-bold mb-2">Dicas</h3>
+            <p class="text-gray-600 mb-4">Veja dicas que podem te ajudar no dia a dia.</p>
+            <router-link to="/dicas" class="text-blue-500 underline">Saiba mais</router-link>
+          </div>
+        </div>
       </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section class="max-w-screen-xl mx-auto px-6 sm:px-6 lg:px-0 py-6 sm:py-8 pb-20 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-8 mt-10" style="background-color: #ffffff;">
+        <Carousel />
     </section>
   </div>
 </template>
@@ -70,7 +66,7 @@
 import Navbar from '../Components/Navbar.vue';
 import BaseSection from '../Components/BaseSection.vue';
 import ApplicationLogoV from '../Components/ApplicationLogoV.vue';
-import LandingFunctionality from '../Components/LandingFunctionality.vue';
+import Carousel from '../Components/Carousel.vue'; // Importe o componente aqui
 
 export default {
   name: 'Welcome',
@@ -78,7 +74,7 @@ export default {
     Navbar,
     BaseSection,
     ApplicationLogoV,
-    LandingFunctionality,
+    Carousel, // Adicione o componente aqui
   },
   mounted() {
     this.initAOS();
@@ -99,8 +95,8 @@ export default {
         duration: 800,
         easing: 'ease-in-out',
       });
-    },
-  },
+    }
+  }
 };
 </script>
 

@@ -32,8 +32,8 @@ Route::get('/dicas', function () {
     return Inertia::render('Dicas');
 })->name('dicas');
 
-Route::get('/algofuturo', function () {
-    return Inertia::render('AlgoFuturo');
-})->name('algofuturo');
+Route::get('/dicas/VeiculoRoubado', function () {
+    return Inertia::render('VeiculoRoubado');
+})->name('VeiculoRoubado');
 
 require __DIR__.'/auth.php';

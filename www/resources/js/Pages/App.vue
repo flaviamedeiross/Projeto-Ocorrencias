@@ -1,4 +1,5 @@
 <template>
+  <Navbar />
     <div id="app" class="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
       <OccurrenceButtons @occurrence-clicked="openModal" />
       <OccurrenceModal 
@@ -11,6 +12,7 @@
   </template>
   
   <script>
+  import Navbar from '../Components/Navbar.vue';
   import OccurrenceButtons from '../Components/OccurrenceButtons.vue';
   import OccurrenceModal from '../Components/OcurrenceModal.vue';
   import axios from 'axios';
@@ -18,6 +20,7 @@
   export default {
     name: 'App',
     components: {
+      Navbar,
       OccurrenceButtons,
       OccurrenceModal,
     },

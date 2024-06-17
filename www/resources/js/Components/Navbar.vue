@@ -23,9 +23,9 @@
           :class="[open ? 'flex' : 'hidden lg:flex']"
           class="w-full h-auto flex flex-col flex-grow lg:items-center pb-4 lg:pb-0 lg:justify-end lg:flex-row origin-top duration-300 xl:space-x-2 space-y-3 lg:space-y-0 lg:ml-4"
         >
+          <NavLink name="Home" url="/" style="font-size: 2rem;" class="nav-link" />
           <NavLink name="Registrar Ocorrências" url="/app" style="font-size: 2rem;" class="nav-link" />
           <NavLink name="Dicas" url="/dicas" style="font-size: 2rem;" class="nav-link" />
-          <NavLink name="Algo Futuro" url="/algofuturo/" style="font-size: 2rem;" class="nav-link" />
         </ul>
       </div>
     </div>
